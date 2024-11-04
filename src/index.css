@@ -1,13 +1,13 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding-top: 56px; /* Adjust to the navbar height */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  height: 56px; /* Match this with the navbar's height */
+  transition: height 0.3s ease; /* Smooth transition */
+}
+
+.content {
+  padding: 20px; /* Add some padding to the content area */
 }

@@ -1,0 +1,9 @@
+.con-wrap {
+  gap: 20px;
+}
+.card-img {
+  max-width: 300px;
+}
+.card-img image {
+  width: 100%;
+}
